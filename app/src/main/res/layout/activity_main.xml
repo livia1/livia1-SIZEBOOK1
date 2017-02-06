@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/records"
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:text="@string/records"
+            android:layout_weight="0.00" />
+
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/count" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/previousEntries"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:scrollbars="vertical"
+        android:layout_weight="0.24">
+
+    </ListView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_weight="0.00"
+        android:layout_height="225dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="190dp">
+
+            <EditText android:id="@+id/edit_name"
+                android:layout_width="match_parent"
+                android:hint="@string/edit_name"
+                android:layout_height="45dp" />
+
+            <EditText android:id="@+id/edit_neck"
+                android:layout_width="match_parent"
+                android:inputType="numberDecimal"
+                android:hint="@string/edit_neck"
+                android:layout_height="45dp" />
+
+            <EditText android:id="@+id/edit_chest"
+                android:layout_width="match_parent"
+                android:inputType="numberDecimal"
+                android:hint="@string/edit_chest"
+                android:layout_height="45dp" />
+
+            <EditText android:id="@+id/edit_hip"
+                android:layout_width="match_parent"
+                android:inputType="numberDecimal"
+                android:hint="@string/edit_hip"
+                android:layout_height="45dp" />
+
+            <EditText android:id="@+id/edit_comment"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:hint="@string/edit_comment"
+                android:layout_height="45dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="190dp">
+
+            <EditText android:id="@+id/edit_date"
+                android:layout_width="match_parent"
+                android:inputType="date"
+                android:ems="10"
+                android:hint="@string/edit_date"
+                android:layout_height="45dp" />
+
+            <EditText android:id="@+id/edit_bust"
+                android:layout_width="match_parent"
+                android:inputType="numberDecimal"
+                android:hint="@string/edit_bust"
+                android:layout_height="45dp" />
+
+            <EditText android:id="@+id/edit_waist"
+                android:layout_weight="0.01"
+                android:layout_width="match_parent"
+                android:inputType="numberDecimal"
+                android:hint="@string/edit_waist"
+                android:layout_height="45dp" />
+
+            <EditText android:id="@+id/edit_inseam"
+                android:layout_width="match_parent"
+                android:inputType="numberDecimal"
+                android:hint="@string/edit_inseam"
+                android:layout_height="45dp" />
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="match_parent"
+                android:text="@string/save"
+                android:textSize="16sp"
+                android:layout_height="45dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

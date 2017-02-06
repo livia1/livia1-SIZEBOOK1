@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/cshome/livia1/Desktop/lonelyTwitter/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">livia1-SizeBook</string>
+    <string name="button_New">New</string>
+    <string name="edit_bust">Bust (inches)"</string>
+    <string name="edit_chest">Chest (inches)</string>
+    <string name="edit_comment">Comments</string>
+    <string name="edit_date">Date yyyy-mm-dd</string>
+    <string name="edit_hip">Hip (inches)</string>
+    <string name="edit_inseam">Inseam (inches)</string>
+    <string name="edit_name">Please enter a name</string>
+    <string name="edit_neck">Neck (inches)</string>
+    <string name="edit_waist">Waist (inches)</string>
+    <string name="records">Number of records: </string>
+    <string name="save">Save</string>
+</resources>
